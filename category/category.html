@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+    <script src="./assets/JavaScript/script.js"></script>
+    <link rel="stylesheet" href="./assets/css/category.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"></header>
+        <div class="header__items">
+            <p class="header__item">Режим работы: 8.00-18.00</p>
+            <p class="header__item">Телефон: +7(961)890 19 61 Заказать обратный звонок</p>
+            <p class="header__item">Почта : FahionСommand@in</p>
+        </div>
+        <div class="header__navigator">
+            <nav class="header__navigator_info">
+                <ul class="header__navigator_box">
+                    <li class="header__navigator_item"><a href="../about_us/about_us.html" style="color: #000;">О нас</a></li>
+                    <li class="header__navigator_item">Доставка</li>
+                    <li class="header__navigator_item"><a href="../payment/payment.html" style="color: black;">Оплата</a></li>
+                    <li class="header__navigator_item"><a href="../reviews/reviews.html" style="color: #000;">Отзывы</a></li>
+                    <li class="header__navigator_item"><a href="../question/Question.html" style="color: black;">Вопросы</a></li>
+                    <li class="header__navigator_item">Услуги</li>
+                </ul>
+            </nav>
+            <div class="header__navigator_text">
+                <p>Язык сайта: EN/RU</p>
+                <p class="header__navigator_title">+7(961)890 19 61</p>
+            </div>
+            <button class="header__btn-back" onclick="back()">Предыдущая страница</button>
+        </div>
+        <div class="header__meta">
+            <ul class="header__meta_items">
+                <li class="header__meta_item">Экипировка</li>
+                <li class="header__meta_item">Форма под заказ</li>
+                <li class="header__meta_item"><a href="#" class="header__meta_link">Создать свой дизайн</a></li>
+                <li class="header__meta_item"><a href="../basket/basket.html" class="header__meta_link"><img class="header__meta_img" src="../assets/img/bascet.svg" alt="">Корзина</a></li>
+            </ul>
+        </div>
+    </header>
+    <section>
+        <div class="filter">
+            <div id="sidebar" class="filter__sidebar">
+                <button class="filter__close_btn" onclick="closeNav()">Закрыть &#10006;</button>
+                <div class="filter__form">
+                    <div >Пол:</div>
+                    <p><input type="checkbox" name="list" id="checkbox1"><label for="checkbox1" >Женский</label></p>
+                    <p><input type="checkbox" name="list" id="checkbox2"><label for="checkbox2" >Мужской</label></p>
+                </div>
+                <div class="filter__form">
+                    <div >Тип:</div>
+                    <p><input type="checkbox" name="list" id="checkbox3"><label for="checkbox3" >С рукавом</label></p>
+                    <p><input type="checkbox" name="list" id="checkbox4"><label for="checkbox4" >Без рукава</label></p>
+                </div>
+                <div class="filter__form">
+                    <div >Цвет:</div>
+                    <p><input type="checkbox" name="list" id="checkbox5"><label for="checkbox5" >Белый</label></p>
+                    <p><input type="checkbox" name="list" id="checkbox6"><label for="checkbox6" >Черный</label></p>
+                    <p><input type="checkbox" name="list" id="checkbox7"><label for="checkbox7">Серый</label></p>
+                    <p class="filter__cheack">Посмотреть все</p>
+                </div>
+                <div class="filter__form">
+                    <div >Размер:</div>
+                    <p><input type="checkbox" name="list" id="checkbox8"><label for="checkbox8" >40-42</label></p>
+                    <p><input type="checkbox" name="list" id="checkbox9"><label for="checkbox9" >42-44</label></p>
+                    <p><input type="checkbox" name="list" id="checkbox10"><label for="checkbox10" >44-46</label></p>
+                    <p class="filter__cheack">Посмотреть все</p>
+                </div>
+                <div class="filter__form">
+                    <div >Принт:</div>
+                    <p><input type="checkbox" name="list" id="checkbox11"><label for="checkbox11" >Животные</label></p>
+                    <p><input type="checkbox" name="list" id="checkbox12"><label for="checkbox12" >Страны и флаги</label></p>
+                    <p><input type="checkbox" name="list" id="checkbox13"><label for="checkbox13" >Женские принт</label></p>
+                    <p class="filter__cheack">Посмотреть все</p>
+                </div>
+            </div>
+            <div id="main">
+                <button class="filter__open_btn" onclick="openNav()">Открыть →</button>
+            </div>
+        </div>
+        <div class="assortment assortment__first">
+            <div class="assortment__box assortment__box-one">
+                <div class="assortment__box-img">
+                    <img src="./assets/img/t-shirt.png" alt="" width="295px" height="312px">
+                </div>
+                <div>Мужская футболка</div>
+                <div class="assortment__box-title">
+                    <p>Размер:</p>
+                    <p class="assortment__box-text">40-60</p>
+                </div>
+                <div class="assortment__box-title">
+                    <p>Цена:</p>
+                    <p class="assortment__box-text">150 ₽</p>
+                </div>
+                <button class="assortment__btn">В корзину</button>
+            </div>
+            <div class="assortment__box">
+                <div class="assortment__box-img">
+                    <img src="./assets/img/t-shirt.png" alt="" width="295px" height="312px">
+                </div>
+                <div>Мужская футболка</div>
+                <div class="assortment__box-title">
+                    <p>Размер:</p>
+                    <p class="assortment__box-text">40-60</p>
+                </div>
+                <div class="assortment__box-title">
+                    <p>Цена:</p>
+                    <p class="assortment__box-text">150 ₽</p>
+                </div>
+                <button class="assortment__btn">В корзину</button>
+            </div>
+            <div class="assortment__box">
+                <div class="assortment__box-img">
+                    <img src="./assets/img/t-shirt.png" alt="" width="295px" height="312px">
+                </div>
+                <div>Мужская футболка</div>
+                <div class="assortment__box-title">
+                    <p>Размер:</p>
+                    <p class="assortment__box-text">40-60</p>
+                </div>
+                <div class="assortment__box-title">
+                    <p>Цена:</p>
+                    <p class="assortment__box-text">150 ₽</p>
+                </div>
+                <button class="assortment__btn">В корзину</button>
+            </div>
+        </div>
+        <div class="assortment">
+            <div class="assortment__box assortment__box-one">
+                <div class="assortment__box-img">
+                    <img src="./assets/img/t-shirt.png" alt="" width="295px" height="312px">
+                </div>
+                <div>Мужская футболка</div>
+                <div class="assortment__box-title">
+                    <p>Размер:</p>
+                    <p class="assortment__box-text">40-60</p>
+                </div>
+                <div class="assortment__box-title">
+                    <p>Цена:</p>
+                    <p class="assortment__box-text">150 ₽</p>
+                </div>
+                <button class="assortment__btn">В корзину</button>
+            </div>
+            <div class="assortment__box">
+                <div class="assortment__box-img">
+                    <img src="./assets/img/t-shirt.png" alt="" width="295px" height="312px">
+                </div>
+                <div>Мужская футболка</div>
+                <div class="assortment__box-title">
+                    <p>Размер:</p>
+                    <p class="assortment__box-text">40-60</p>
+                </div>
+                <div class="assortment__box-title">
+                    <p>Цена:</p>
+                    <p class="assortment__box-text">150 ₽</p>
+                </div>
+                <button class="assortment__btn">В корзину</button>
+            </div>
+            <div class="assortment__box">
+                <div class="assortment__box-img">
+                    <img src="./assets/img/t-shirt.png" alt="" width="295px" height="312px">
+                </div>
+                <div>Мужская футболка</div>
+                <div class="assortment__box-title">
+                    <p>Размер:</p>
+                    <p class="assortment__box-text">40-60</p>
+                </div>
+                <div class="assortment__box-title">
+                    <p>Цена:</p>
+                    <p class="assortment__box-text">150 ₽</p>
+                </div>
+                <button class="assortment__btn">В корзину</button>
+            </div>
+        </div>
+        <div class="assortment">
+            <div class="assortment__box assortment__box-one">
+                <div class="assortment__box-img">
+                    <img src="./assets/img/t-shirt.png" alt="" width="295px" height="312px">
+                </div>
+                <div>Мужская футболка</div>
+                <div class="assortment__box-title">
+                    <p>Размер:</p>
+                    <p class="assortment__box-text">40-60</p>
+                </div>
+                <div class="assortment__box-title">
+                    <p>Цена:</p>
+                    <p class="assortment__box-text">150 ₽</p>
+                </div>
+                <button class="assortment__btn">В корзину</button>
+            </div>
+            <div class="assortment__box">
+                <div class="assortment__box-img">
+                    <img src="./assets/img/t-shirt.png" alt="" width="295px" height="312px">
+                </div>
+                <div>Мужская футболка</div>
+                <div class="assortment__box-title">
+                    <p>Размер:</p>
+                    <p class="assortment__box-text">40-60</p>
+                </div>
+                <div class="assortment__box-title">
+                    <p>Цена:</p>
+                    <p class="assortment__box-text">150 ₽</p>
+                </div>
+                <button class="assortment__btn">В корзину</button>
+            </div>
+            <div class="assortment__box">
+                <div class="assortment__box-img">
+                    <img src="./assets/img/t-shirt.png" alt="" width="295px" height="312px">
+                </div>
+                <div>Мужская футболка</div>
+                <div class="assortment__box-title">
+                    <p>Размер:</p>
+                    <p class="assortment__box-text">40-60</p>
+                </div>
+                <div class="assortment__box-title">
+                    <p>Цена:</p>
+                    <p class="assortment__box-text">150 ₽</p>
+                </div>
+                <button class="assortment__btn">В корзину</button>
+            </div>
+        </div>
+        <div class="assortment__under">
+            <button class="assortment__btn-big">Показать еще</button>
+            <p class="assortment__under-text">1 2 3 ....  45 >  </p>
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer__info">
+            <ul class="">
+                <li><a class="footer__link" href="#">Оплата</a></li>
+                <li><a class="footer__link" href="#">Возврат</a></li>
+                <li><a class="footer__link" href="#">Доставка</a></li>
+                <li><a class="footer__link" href="#">Вопросы</a></li>
+            </ul>
+            <ul class="">
+                <li><a class="footer__link" href="#">О нас</a></li>
+                <li><a class="footer__link" href="#">Услуги</a></li>
+                <li><a class="footer__link" href="#">Отзывы</a></li>
+                <li><a class="footer__link" href="#">Оптовый отдел</a></li>
+            </ul>
+            <ul class="">
+                <li><a class="footer__link" href="#">Каталог</a></li>
+                <li><a class="footer__link" href="#">Размерная сетка</a></li>
+                <li><a class="footer__link" href="#">Комнадная форма</a></li>
+                <li><a class="footer__link" href="#">Создание дизайна формы </a></li>
+            </ul>
+            <ul class="">
+                <li><a class="footer__link" href="#">+7(961)890 19 61</a></li>
+                <li><a class="footer__link" href="#">FahionСommand@in</a></li>
+                <li><a class="footer__link" href="#"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

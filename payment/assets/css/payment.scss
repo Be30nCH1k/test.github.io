@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    &__items{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 77px;
+    }
+    &__navigator{
+        height: 80px;
+        display: flex;
+        background-color: #EAEAEA;
+    }
+    &__navigator_box{
+        background-color: #fff;
+        padding: 0 60px;
+        width: 530px;
+        border-radius: 60px;
+        display: flex;
+        gap: 40px;
+        border: 1px solid black;
+        margin: 15px 0 0 190px;
+    }
+    &__navigator_item{
+        padding: 10px 0px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    &__navigator_text{
+        margin: 15px 0 0 500px;
+        align-items: flex-end;
+    }
+    &__navigator_title{
+        font-size: 22px;
+    }
+    &__meta{
+        margin-top: 25px;
+    }
+    &__meta_items{
+        background-color: #fff;
+        padding: 0 200px;
+        border-radius: 60px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px;
+    }
+    &__meta_item{
+        font-weight: 500;
+        font-size: 22px;
+    }
+    &__meta_link{
+        color: black;
+        padding: 13px 19px;
+        background-color: #EAEAEA;
+        border-radius: 60px;
+    }
+    &__meta_img{
+        width: 20px;
+        margin-right: 10px;
+    }    
+}
+.just-text{
+    height: 235px;
+    background-color: #EAEAEA;
+    margin-top: 82px;
+    div{
+        padding: 45px 0 0 114px;
+        font-size: 72px;
+        font-weight: 500;
+    }
+}
+.main{
+    &__box{
+        flex-direction: column;
+        max-width: 1350px;
+        margin-left: 45px;
+    }
+    &__title{
+        display: flex;
+        margin-top: 64px;
+        margin-left: 114px;
+
+    div{
+        font-weight: 500;
+        font-size: 72px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 48px;
+    }
+    }
+}
+.footer{
+    &__info{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        font-weight: 400;
+        font-size: 36px;
+        margin-top: 100px;
+        margin-bottom: 68px;
+    }
+    &__link{
+        color: #000;
+    } 
+}

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.backet {
+  margin: 90px 0 70px 156px;
+}
+.backet__block {
+  display: flex;
+}
+.backet__wrap {
+  margin-left: 62px;
+  font-size: 48px;
+}
+.backet__btn {
+  margin-top: 103px;
+  max-width: 1100px;
+  justify-content: space-evenly;
+}
+.backet__btn-white {
+  border: 0;
+  font-weight: 200;
+  background-color: #fff;
+  font-size: 24px;
+  margin-top: 132px;
+}
+.backet__btn-black {
+  padding: 20px 48px;
+  color: black;
+  font-size: 36px;
+  font-weight: 400;
+  border-radius: 36px;
+  background-color: #fff;
+  border: 0;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 279px;
+  position: absolute;
+}
+.backet__main-title {
+  margin-bottom: 72px;
+  font-weight: 500;
+  font-size: 72px;
+}
+.backet__box {
+  margin-left: 61px;
+  font-size: 48px;
+}
+.backet__box-text {
+  font-weight: 200;
+}
+.backet__box-black {
+  font-weight: 400;
+}
+.backet__block-title {
+  font-size: 48px;
+  font-weight: 400;
+  margin-left: 100px;
+}
+.backet__block-text {
+  margin-left: 100px;
+  font-size: 48px;
+  font-weight: 200;
+}
+.backet__wrap {
+  margin-left: 235px;
+}
+.backet__btn-back {
+  height: 50px;
+  font-size: 18px;
+  border-radius: 36px;
+  width: 200px;
+  position: absolute;
+  background-color: #EAEAEA;
+  top: 120px;
+  right: 250px;
+}
+
+.interes {
+  background-color: #EAEAEA;
+  height: 1000px;
+}
+.interes__title {
+  padding: 90px 0 0 156px;
+  font-size: 72px;
+  font-weight: 500;
+}
+.interes__items {
+  display: flex;
+  margin: 93px 104px 125px;
+}
+.interes__img {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+.interes__img-item {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 36px;
+  margin-right: 80px;
+}
+.interes__text-box {
+  font-size: 36px;
+  font-weight: 400;
+}
+.interes__btn {
+  margin-top: 16px;
+  font-size: 36px;
+  font-weight: 400;
+  border: 0;
+  height: 57px;
+  width: 250px;
+  border-radius: 36px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.interes__text {
+  margin-left: 120px;
+  margin-top: 24px;
+}
+.interes__block {
+  display: flex;
+  margin-top: 38px;
+  margin-left: 60px;
+}
+
+.footer__info {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  font-weight: 400;
+  font-size: 36px;
+  margin-top: 100px;
+  margin-bottom: 68px;
+}
+.footer__link {
+  color: #000;
+}

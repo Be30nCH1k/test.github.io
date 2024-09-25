@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.backet{
+    margin: 90px 0 70px 156px;
+    &__block{
+        display: flex;
+    }
+    &__wrap{
+        margin-left: 62px;
+        font-size: 48px;
+    }
+
+    &__btn{
+        margin-top: 103px;
+        max-width: 1100px;
+        justify-content: space-evenly;
+    }
+    &__btn-white{
+        border: 0;
+        font-weight: 200;
+        background-color: #fff;
+        font-size: 24px;
+        margin-top: 132px;
+
+    }
+    &__btn-black{
+        padding: 20px 48px;
+        color: black;
+        font-size: 36px;
+        font-weight: 400;
+        border-radius: 36px;
+        background-color: #fff;
+        border: 0;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        margin-top: 279px;
+        position: absolute;
+    }
+    &__main-title{
+        margin-bottom: 72px;
+        font-weight: 500;
+        font-size: 72px;
+    }
+    &__box{
+        margin-left: 61px;
+        font-size: 48px;
+        &-text{
+            font-weight: 200;
+        }
+        &-black{
+            font-weight: 400;
+        }
+    }
+    &__block{
+        
+        &-title{
+            font-size: 48px;
+            font-weight: 400;
+            margin-left: 100px;
+        }
+        &-text{
+            margin-left: 100px;
+            font-size: 48px;
+            font-weight: 200;
+        }
+    }
+    &__wrap{
+        margin-left: 235px;
+    }
+    &__btn-back{
+        height: 50px;
+        font-size: 18px;
+        border-radius: 36px;
+        width: 200px;
+        position: absolute;
+        background-color: #EAEAEA;
+        top: 120px;
+        right: 250px;
+    }
+
+
+}
+// interes
+.interes{
+    background-color: #EAEAEA;
+    height: 1000px;
+    &__title{
+        padding: 90px 0 0 156px;
+        font-size: 72px;
+        font-weight: 500;
+    }
+    &__items{
+        display: flex;
+        margin: 93px 104px 125px;
+    }
+    &__img{
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    &__img-item{
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        border-radius: 36px;
+        margin-right: 80px;
+    }
+    &__text-box{
+        font-size: 36px;
+        font-weight: 400;
+    }
+    &__btn{
+        margin-top: 16px;
+        font-size: 36px;
+        font-weight: 400;
+        border: 0;
+        height: 57px;
+        width: 250px;
+        border-radius: 36px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    }
+    &__text{
+        margin-left: 120px;
+        margin-top: 24px;
+    }
+    &__block{
+        display: flex;
+        margin-top: 38px;
+        margin-left: 60px;
+    }
+}
+// footer
+.footer{
+    &__info{
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        font-weight: 400;
+        font-size: 36px;
+        margin-top: 100px;
+        margin-bottom: 68px;
+    }
+    &__link{
+        color: #000;
+    } 
+}
